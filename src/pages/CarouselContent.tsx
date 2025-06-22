@@ -106,7 +106,7 @@ const CarouselContent = () => {
             className="flex transition-transform duration-500 ease-in-out h-full"
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
-            {slides.map((slide, index) => (
+            {slides.map((slide) => (
               <div key={slide.id} className="w-full flex-shrink-0 p-8 md:p-12">
                 <div className="h-full flex items-center justify-center">
                   {slide.content}
