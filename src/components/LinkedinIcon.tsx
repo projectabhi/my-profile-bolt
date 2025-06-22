@@ -1,4 +1,6 @@
-const LinkedinIcon = () => {
+import { memo } from "react";
+
+const LinkedinIcon = memo(() => {
   return (
     <span className="[&>svg]:h-8 [&>svg]:w-8 [&>svg]:fill-[#0077b5]">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -12,5 +14,5 @@ const LinkedinIcon = () => {
       </svg>
     </span>
   );
-};
+});
 export default LinkedinIcon;

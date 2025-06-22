@@ -2,8 +2,9 @@ import { Mail } from "lucide-react";
 import GithubIcon from "../components/GithubIcon";
 import LinkedinIcon from "../components/LinkedinIcon";
 import WhatsappIcon from "../components/WhatsappIcon";
+import { memo } from "react";
 
-const Contact = () => {
+const Contact = memo(() => {
   return (
     <div className="space-y-8">
       <div className="text-center mb-8">
@@ -43,7 +44,7 @@ const Contact = () => {
               value: "@abhijit",
               href: "https://wa.me/9851881748",
             },
-          ].map((contact, index) => (
+          ].map((contact) => (
             <a
               target="_blank"
               key={contact.label}
@@ -97,5 +98,5 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+});
 export default Contact;

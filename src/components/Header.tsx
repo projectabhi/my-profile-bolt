@@ -3,8 +3,9 @@ import profilePic from "../assets/profile_pic.jpg";
 import GithubIcon from "./GithubIcon";
 import LinkedinIcon from "./LinkedinIcon";
 import WhatsappIcon from "./WhatsappIcon";
+import { memo } from "react";
 
-const Header = () => {
+const Header = memo(() => {
   return (
     <div className="flex items-center justify-between max-w-4xl mx-auto">
       <div className="flex items-center space-x-6">
@@ -39,5 +40,5 @@ const Header = () => {
       </div>
     </div>
   );
-};
+});
 export default Header;

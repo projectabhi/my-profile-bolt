@@ -1,8 +1,9 @@
+import { memo } from "react";
 import GithubIcon from "../components/GithubIcon";
 import LinkedinIcon from "../components/LinkedinIcon";
 import WhatsappIcon from "../components/WhatsappIcon";
 
-const MobileView = () => {
+const MobileView = memo(() => {
   return (
     <div className="flex md:hidden justify-center space-x-4 mt-6">
       {[GithubIcon, LinkedinIcon, WhatsappIcon].map((Icon, index) => (
@@ -15,5 +16,5 @@ const MobileView = () => {
       ))}
     </div>
   );
-};
+});
 export default MobileView;

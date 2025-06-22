@@ -1,6 +1,7 @@
 import { Zap } from "lucide-react";
+import { memo } from "react";
 
-const Footer = () => {
+const Footer = memo(() => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-6 text-center">
@@ -15,5 +16,5 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+});
 export default Footer;

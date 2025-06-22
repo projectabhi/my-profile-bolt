@@ -1,4 +1,6 @@
-const WhatsappIcon = () => {
+import { memo } from "react";
+
+const WhatsappIcon = memo(() => {
   return (
     <span className="[&>svg]:h-8 [&>svg]:w-8 [&>svg]:fill-[#128c7e]">
       <svg
@@ -16,5 +18,5 @@ const WhatsappIcon = () => {
       </svg>
     </span>
   );
-};
+});
 export default WhatsappIcon;

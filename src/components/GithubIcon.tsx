@@ -1,4 +1,6 @@
-const GithubIcon = () => {
+import { memo } from "react";
+
+const GithubIcon = memo(() => {
   return (
     <span className="[&>svg]:h-8 [&>svg]:w-8 [&>svg]:fill-[#524b4b]">
       <svg
@@ -16,5 +18,5 @@ const GithubIcon = () => {
       </svg>
     </span>
   );
-};
+});
 export default GithubIcon;

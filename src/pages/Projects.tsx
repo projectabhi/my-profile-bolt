@@ -1,6 +1,7 @@
 import { Star } from "lucide-react";
+import { memo } from "react";
 
-const Projects = () => {
+const Projects = memo(() => {
   return (
     <div className="space-y-8">
       <div className="text-center mb-8">
@@ -87,5 +88,5 @@ const Projects = () => {
       </div>
     </div>
   );
-};
+});
 export default Projects;

@@ -1,4 +1,6 @@
-const Skills = () => {
+import { memo } from "react";
+
+const Skills = memo(() => {
   return (
     <div className="space-y-8">
       <div className="text-center mb-8">
@@ -43,5 +45,5 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+});
 export default Skills;

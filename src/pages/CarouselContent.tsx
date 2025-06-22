@@ -6,7 +6,7 @@ import {
   Mail,
   User,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -19,7 +19,7 @@ interface CarouselSlide {
   content: React.ReactNode;
 }
 
-const CarouselContent = () => {
+const CarouselContent = memo(() => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
@@ -147,5 +147,5 @@ const CarouselContent = () => {
       </div>
     </div>
   );
-};
+});
 export default CarouselContent;
