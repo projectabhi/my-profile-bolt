@@ -3,11 +3,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Code,
-  Github,
-  Linkedin,
   Mail,
-  Star,
-  Twitter,
   User,
 } from "lucide-react";
 import { useEffect, useState } from "react";
