@@ -3,7 +3,7 @@ import GithubIcon from "../components/GithubIcon";
 import LinkedinIcon from "../components/LinkedinIcon";
 import WhatsappIcon from "../components/WhatsappIcon";
 
-const MobileView = memo(() => {
+const SocialIcon = memo(() => {
   return (
     <div className="flex md:hidden justify-center space-x-4 mt-6">
       {[GithubIcon, LinkedinIcon, WhatsappIcon].map((Icon, index) => (
@@ -17,4 +17,4 @@ const MobileView = memo(() => {
     </div>
   );
 });
-export default MobileView;
+export default SocialIcon;
