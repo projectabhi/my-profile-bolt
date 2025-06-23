@@ -24,7 +24,7 @@ const Projects = memo(() => {
             title: "Loan Originations System",
             description:
               "Loan sourcing, verification and underwriting application",
-            tech: ["Spring MVC", "Spring Boot", "JSP", "Apache Camel"],
+            tech: ["Spring MVC", "Spring Boot", "JSP", "Oracle"],
             image: logoSbicard,
             stars: 4.9,
           },
@@ -32,15 +32,15 @@ const Projects = memo(() => {
             title: "Aurora Healthcare",
             description:
               "Billing, staffing, generating report of all the transactions, process flow management application",
-            tech: ["Spring MVC", "Angular", "Oracle"],
+            tech: ["Spring MVC", "Angular", "MySQL", "AWS"],
             image: logoAurora,
             stars: 4.5,
           },
           {
-            title: "Social Media API",
+            title: "Middleware APIs",
             description:
-              "RESTful API serving 10M+ requests daily with Redis caching",
-            tech: ["Node.js", "Express", "Redis", "Docker"],
+              "RESTful API serving 1M+ requests daily with Redis caching",
+            tech: ["Apache Camel", "Spring", "Redis", "Oracle"],
             image:
               "https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
             stars: 4.7,
