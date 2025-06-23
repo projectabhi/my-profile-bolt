@@ -2,6 +2,7 @@ import { Star } from "lucide-react";
 import { memo } from "react";
 import logoSbicard from "../assets/logo_sbicard.png";
 import logoFiserv from "../assets/fiserv-logo-orange-ff6600.svg";
+import logoAurora from "../assets/aurora_logo.png";
 
 const Projects = memo(() => {
   return (
@@ -20,21 +21,20 @@ const Projects = memo(() => {
             stars: 4.9,
           },
           {
-            title: "User onboarding",
+            title: "Loan Originations System",
             description:
-              "User onboarding, verification and underwriting application",
+              "Loan sourcing, verification and underwriting application",
             tech: ["Spring MVC", "Spring Boot", "JSP", "Apache Camel"],
             image: logoSbicard,
-            stars: 4.8,
+            stars: 4.9,
           },
           {
-            title: "AI Analytics Dashboard",
+            title: "Aurora Healthcare",
             description:
-              "Data visualization platform with machine learning insights",
-            tech: ["Python", "React", "D3.js", "TensorFlow"],
-            image:
-              "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop",
-            stars: 4.9,
+              "Billing, staffing, generating report of all the transactions, process flow management application",
+            tech: ["Spring MVC", "Angular", "Oracle"],
+            image: logoAurora,
+            stars: 4.5,
           },
           {
             title: "Social Media API",
