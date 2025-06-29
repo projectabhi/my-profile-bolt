@@ -15,12 +15,12 @@ export const openEmailClient = (data: EmailData): void => {
   const { name, email, message } = data;
   
   // Email configuration
-  const recipientEmail = 'hello@johndoe.dev';
+  const recipientEmail = 'abhijitdey.biet@gmail.com';
   const subject = `Contact Form Message from ${name}`;
   
   // Create email body with proper formatting
   const emailBody = `
-Hello John,
+Hello Abhijit,
 
 You have received a new message through your portfolio contact form.
 
