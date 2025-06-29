@@ -8,4 +8,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server:{
+    allowedHosts: ['strategy-rapidly-specifically-initially.trycloudflare.com']
+  }
 })
