@@ -6,11 +6,12 @@ import {
   Mail,
   User,
 } from "lucide-react";
-import { memo, useEffect, useState } from "react";
-import AboutMe from "./AboutMe";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import { lazy, memo, useEffect, useState } from "react";
+
+const AboutMe = lazy(() => import("./AboutMe"));
+const Skills = lazy(() => import("./Skills"));
+const Projects = lazy(() => import("./Projects"));
+const Contact = lazy(() => import("./Contact"));
 
 interface CarouselSlide {
   id: string;
