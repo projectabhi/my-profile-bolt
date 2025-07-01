@@ -3,6 +3,7 @@ import GithubIcon from "../components/GithubIcon";
 import LinkedinIcon from "../components/LinkedinIcon";
 import WhatsappIcon from "../components/WhatsappIcon";
 import { memo } from "react";
+import ContactForm from "../components/ContactForm";
 
 const Contact = memo(() => {
   return (
@@ -61,40 +62,7 @@ const Contact = memo(() => {
             </a>
           ))}
         </div>
-        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-          <h4 className="text-xl font-semibold text-gray-800 mb-6">
-            Quick Message
-          </h4>
-          <form className="space-y-4">
-            <div>
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
-              />
-            </div>
-            <div>
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
-              />
-            </div>
-            <div>
-              <textarea
-                rows={4}
-                placeholder="Your Message"
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-6 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
+        <ContactForm />
       </div>
     </div>
   );
