@@ -36,7 +36,7 @@ const AboutMe = memo(() => {
         <div className="text-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
           <Award className="w-8 h-8 text-purple-600 mx-auto mb-3" />
           <h4 className="font-semibold text-gray-800">Projects</h4>
-          <p className="text-gray-600">50+ Completed</p>
+          <p className="text-gray-600">10+ Completed</p>
         </div>
       </div>
     </div>

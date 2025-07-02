@@ -24,8 +24,8 @@ const Contact = memo(() => {
             {
               icon: Mail,
               label: "Email",
-              value: "abhijitbiet.dey@gmail.com",
-              href: "mailto:abhijitbiet.dey@gmail.com",
+              value: "projectabhi@gmail.com",
+              href: "mailto:projectabhi@gmail.com",
             },
             {
               icon: GithubIcon,
