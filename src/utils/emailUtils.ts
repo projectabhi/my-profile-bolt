@@ -15,7 +15,7 @@ export const openEmailClient = (data: EmailData): void => {
   const { name, email, message } = data;
   
   // Email configuration
-  const recipientEmail = 'abhijitdey.biet@gmail.com';
+  const recipientEmail = 'projectabhi@gmail.com';
   const subject = `Contact Form Message from ${name}`;
   
   // Create email body with proper formatting
@@ -59,7 +59,7 @@ export const copyEmailToClipboard = async (data: EmailData): Promise<void> => {
   const { name, email, message } = data;
   
   const emailText = `
-To: abhijitdey.biet@gmail.com
+To: projectabhi@gmail.com
 Subject: Contact Form Message from ${name}
 
 From: ${name}
@@ -76,7 +76,7 @@ ${message}
     console.error('Failed to copy to clipboard:', error);
     
     // Final fallback: show alert with email details
-    alert(`Please send an email to abhijitdey.biet@gmail.com with the following details:\n\nFrom: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    alert(`Please send an email to projectabhi@gmail.com with the following details:\n\nFrom: ${name}\nEmail: ${email}\nMessage: ${message}`);
   }
 };
 
